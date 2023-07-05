@@ -2,41 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alurabooks</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
     <header class="cabeçalho">
-<span class="cabeçalho__menu-hamburguer"></span>
-<img src="img/Menu (1).svg" alt="Menu">
-<img src="img/Logo.svg" alt="Logo da Alurabooks">
-<a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-<a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
-<a href="#"><img src="img/Usuário.svg" alt="Meu perfil"></a>
+      <div class="container">
+        <input type="checkbox" id="menu" class="container___botao">
+        <label for="menu">
+               <span class="cabeçalho___menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Programaçao</a>
+        </li>
+        <li class="lista-menu__item">
+     <a href="#" class="lista-menu__link">Front-end></a>
+        </li>
+        <li class="lista-menu__item">
+    <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Business</a>
 
-    </header>
-
-<header class="cabeçalho"> 
-<div class="container">
-   <span class="cabeçalho__menu-hamburguer"></span>
-<img src="img/Logo.svg" alt="Logo da Alurabooks">
-</div>
-
-<div class="container">
-<a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-<a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
-<a href="#"><img src="img/Usuário.svg" alt="Meu perfil"></a>
-
-</div>
+</li>
+<li class="lista-menu__item">
+<a href="#" class="lista-menu__link">Design & UX</a>
+</li>
+</ul>
+    <img src="img/Menu (1).svg" alt="Menu">
+    <img src="img/Logo.svg" alt="Logo do AluraBooks" class="container__imagem">
+      </div>
+    
+      <div class="container">
+    <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+    <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+    <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
 </header>
 
-
-
-
-
-
 </body>
-
+</html>
